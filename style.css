@@ -1,0 +1,48 @@
+.container{
+    margin: 0 auto;
+}
+.calc-container{
+    padding: 20px;
+    width: 250px;
+    height: 430px;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow:10px 10px 10px gray;
+}
+.calc-container h1{
+    color: white;
+}
+#box{
+    background-color: lightsteelblue;
+    width: 100%;
+    margin: auto;
+    height: 35px;
+    font-size: 30px;
+    text-align: right;
+}
+.btn-container{
+    background-color:yellowgreen;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.btn{
+    margin: 10px 5px 10px 5px;
+    width: 48px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.solvebtn{
+    width: 110px;
+    background-color: green;
+}
+.cbtn{
+    background: red;
+}
+.cbtn:hover, .btn:hover{
+    opacity: 0.5;
+}
+
+

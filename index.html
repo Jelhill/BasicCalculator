@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="test.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="calc-container">
+                <h1>BC's Calc</h1>
+                
+                <input type="text" id="box" value="" readonly placeholder="0">
+
+                <div class="btn-container">
+                    <div class="row">
+                        <button class="btn" onclick="shownum('1')"><strong>1</strong></button>
+                        <button class="btn" onclick="shownum('2')"><strong>2</strong></button>
+                        <button class="btn" onclick="shownum('3')"><strong>3</strong></button>
+                        <button class="delBtn btn cbtn"><strong><==</strong></button>
+                    </div>
+                    <div class="row">
+                        <button class="btn" onclick="shownum('4')"><strong>4</strong></button>
+                        <button class="btn" onclick="shownum('5')"><strong>5</strong></button>
+                        <button class="btn" onclick="shownum('6')"><strong>6</strong></button>
+                        <button class="btn" onclick="shownum('+')"><strong>+</strong></button>
+                    </div>
+                    <div class="row">
+                        <button class="btn" onclick="shownum('7')"><strong>7</strong></button>
+                        <button class="btn" onclick="shownum('8')"><strong>8</strong></button>
+                        <button class="btn" onclick="shownum('9')"><strong>9</strong></button>
+                        <button class="btn" onclick="shownum('-')"><strong>-</strong></button>
+                    </div>
+                    <div class="row">
+                        <button class="btn" onclick="shownum('.')"><strong>.</strong></button>
+                        <button class="btn" onclick="shownum('0')"><strong>0</strong></button>
+                        <button class="btn" onclick="shownum('00')"><strong>00</strong></button>
+                        <button class="btn" onclick="shownum('*')"><strong>*</strong></button>
+                    </div>
+                    <div class="row">
+                        <button class="clearScreen btn cbtn" onclick="clearScreen()"><strong>C</strong></button>
+                        <button class="calculate btn solvebtn" onclick=""><strong>=</strong></button>
+                        <button class="btn" onclick="shownum('/')"><strong>/</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       <!-- <div class="container">
+            <div class="display-area">
+                <input id="box" type="text" class="display-area-input" value="" readonly placeholder="0">
+            </div>
+            <div class="btn-area">
+                
+                <div class="side-two" class="btn-col">
+                    <button class="ops" data-action="divide">/</button>   
+                    <button class="ops" data-action="calc">=</button>
+                    <button class="reset">AC</button>
+                    <button id="clear" class="clear">C</button>                
+                </div>
+                <div class="side-two">
+                    <button class="ops" data-action="multiply">*</button>
+                    <button class="num-btn" data-num="9" >9</button> 
+                    <button class="num-btn" data-num="6">6</button>
+                    <button class="num-btn" data-num="3">3</button>                        
+                </div>
+                <div class="side-two">
+                    <button class="ops" data-action="minus">-</button>
+                    <button class="num-btn" data-num="8">8</button>
+                    <button class="num-btn" data-num="5">5</button>
+                    <button class="num-btn" data-num="2">2</button>
+                </div>
+                <div class="side-two">
+                    <button class="ops" data-action="add">+</button>
+                    <button class="num-btn" data-num="7">7</button>
+                    <button class="num-btn" data-num="4">4</button>
+                    <button id="num" class="num-btn" onclick="showNumber('1')">1</button>
+                </div>
+              
+            </div>
+     </div>
+
+     -->
+
+    </body>
+    
+</html>
